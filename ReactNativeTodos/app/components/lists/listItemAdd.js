@@ -42,7 +42,7 @@ export default React.createClass({
           <TextInput
             ref='input'
             style={styles.input}
-            placeholder="Type to add new lists"
+            placeholder="Type to add a new Battle"
             onSubmitEditing={this.handleSubmit}
             onChangeText={(list) => this.setState({list: list})}
             />

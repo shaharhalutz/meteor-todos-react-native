@@ -101,7 +101,7 @@ export default React.createClass({
       <Navigator
         initialRoute={{
           component: Lists,
-          title: "Todo Lists",
+          title: "Battles",
           rightButton: <AppOptions />
         }}
         renderScene={this.renderScene}
